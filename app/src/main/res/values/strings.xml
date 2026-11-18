@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Planificador de vídeos</string>
+
+    <!-- Pantalla principal -->
+    <string name="titulo_main">Mis vídeos planificados</string>
+    <string name="btn_nuevo_video">Nuevo vídeo</string>
+    <string name="lista_vacia">Aún no hay vídeos planificados. Pulsa «Nuevo vídeo» para añadir el primero.</string>
+    <string name="formato_resumen">%1$d vídeos · %2$d min en total</string>
+    <string name="formato_duracion">%1$d min</string>
+    <string name="formato_gancho">Gancho: «%1$s»</string>
+
+    <!-- Formulario -->
+    <string name="titulo_formulario">Nuevo vídeo</string>
+    <string name="hint_titulo">Título del vídeo</string>
+    <string name="etiqueta_tipo">Tipo de vídeo</string>
+    <string name="hint_duracion">Duración (minutos)</string>
+    <string name="hint_gancho">Gancho de los primeros 5 segundos (opcional)</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="error_titulo">Escribe un título</string>
+    <string name="error_duracion">Indica una duración mayor que 0</string>
+
+    <!-- Opciones del Spinner -->
+    <string-array name="tipos_video">
+        <item>Análisis</item>
+        <item>Guía</item>
+        <item>Top</item>
+        <item>Short</item>
+    </string-array>
+</resources>
